@@ -19,11 +19,13 @@
 
 
 function rotateImage(a) {
-  console.log(a.length-1)
-  console.log(a[2][0],a[1][0], a[0][0])
+  // console.log(a.length-1)
+  // console.log(a[2][0],a[1][0], a[0][0])
+
+  const test = []
 
   for (let i = 0; i < a.length; i++) {
-    
+    console.log(a[i])
   }
 
   return a;
